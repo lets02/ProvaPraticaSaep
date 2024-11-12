@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Tarefa</title>
+    <link rel="stylesheet" href="assets/css/cadastrar_tarefa.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastrar Tarefa</h1>
+        <form action="index.php" method="POST">
+            <div class="form-group">
+                <label for="descricao">Descrição</label>
+                <input type="text" id="descricao" name="descricao" required>
+            </div>
+            <div class="form-group">
+                <label for="prioridade">Prioridade</label>
+                <input type="number" id="prioridade" name="prioridade" required>
+            </div>
+            <button type="submit">Cadastrar Tarefa</button>
+        </form>
+    </div>
+</body>
+</html>

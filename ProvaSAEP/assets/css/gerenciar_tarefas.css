@@ -1,0 +1,46 @@
+/* Estilos específicos para a página de gerenciamento de tarefas */
+body {
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f1f1f1;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
